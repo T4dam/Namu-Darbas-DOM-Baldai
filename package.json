@@ -1,0 +1,23 @@
+{
+  "name": "tadas_delininkaitis_dom_nd2",
+  "version": "1.0.0",
+  "description": "Namu darbai nr.2 Baldai",
+  "main": "index.js",
+  "scripts": {
+    "start-unix": "node_modules/.bin/json-server --watch database.json",
+    "start-win": "node_modules\\.bin\\json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T4dam/Namu-Darbas-DOM-Baldai.git"
+  },
+  "author": "Tadas Delininkaitis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T4dam/Namu-Darbas-DOM-Baldai/issues"
+  },
+  "homepage": "https://github.com/T4dam/Namu-Darbas-DOM-Baldai#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
