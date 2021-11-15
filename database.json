@@ -1,94 +1,95 @@
 {
     "furniture": [
-    {
-    "id": "1",
-    "title": "Kėdė",
-    "type": "Medinė",
-    "price": 200,
-    "location": {
-      "country": "Lietuva",
-      "city": "Klaipėda",
-      "street": "Jūros g."
-    },
-    "owner": {
-      "fullname": "Kibinius",
-      "mobile": 863412321,
-      "address": "Vaivadu g.",
-      "email": "el@pasto.lt"
-    },
-    "imgSrc": "https://m.media-amazon.com/images/I/81J5r9dANGL._SL1500_.jpg"
-  },
-    {
-    "id": "2",
-    "title": "Kėdė",
-    "type": "Medinė",
-    "price": 200,
-    "location": {
-      "country": "Lietuva",
-      "city": "Klaipėda",
-      "street": "Jūros g."
-    },
-    "owner": {
-      "fullname": "Kibinius",
-      "mobile": 863412321,
-      "address": "Vaivadu g.",
-      "email": "el@pasto.lt"
-    },
-    "imgSrc": "https://m.media-amazon.com/images/I/81J5r9dANGL._SL1500_.jpg"
-  },
-    {
-    "id": "3",
-    "title": "Kėdė",
-    "type": "Medinė",
-    "price": 200,
-    "location": {
-      "country": "Lietuva",
-      "city": "Klaipėda",
-      "street": "Jūros g."
-    },
-    "owner": {
-      "fullname": "Kibinius",
-      "mobile": 863412321,
-      "address": "Vaivadu g.",
-      "email": "el@pasto.lt"
-    },
-    "imgSrc": "https://m.media-amazon.com/images/I/81J5r9dANGL._SL1500_.jpg"
-  },
-    {
-    "id": "4",
-    "title": "Kėdė",
-    "type": "Medinė",
-    "price": 200,
-    "location": {
-      "country": "Lietuva",
-      "city": "Klaipėda",
-      "street": "Jūros g."
-    },
-    "owner": {
-      "fullname": "Kibinius",
-      "mobile": 863412321,
-      "address": "Vaivadu g.",
-      "email": "el@pasto.lt"
-    },
-    "imgSrc": "https://m.media-amazon.com/images/I/81J5r9dANGL._SL1500_.jpg"
-  },
-    {
-    "id": "5",
-    "title": "Kėdė",
-    "type": "Medinė",
-    "price": 200,
-    "location": {
-      "country": "Lietuva",
-      "city": "Klaipėda",
-      "street": "Jūros g."
-    },
-    "owner": {
-      "fullname": "Kibinius",
-      "mobile": 863412321,
-      "address": "Vaivadu g.",
-      "email": "el@pasto.lt"
-    },
-    "imgSrc": "https://m.media-amazon.com/images/I/81J5r9dANGL._SL1500_.jpg"
+      {
+        "id": "1",
+        "title": "Mindaugo Sapnas",
+        "type": "Lova",
+        "price": 200,
+        "location": {
+          "country": "Lietuva",
+          "city": "Klaipėda",
+          "street": "Jūros g."
+        },
+        "owner": {
+          "fullname": "Kibinius",
+          "mobile": 863412321,
+          "address": "Vaivadu g.",
+          "email": "el@pasto.lt"
+        },
+        "imgSrc": "https://www.thatbalishop.com.au/wp-content/uploads/2018/11/Plainqueenteakbed.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Karalių sostas",
+        "type": "kėdė",
+        "price": 200,
+        "location": {
+          "country": "Lietuva",
+          "city": "Klaipėda",
+          "street": "Jūros g."
+        },
+        "owner": {
+          "fullname": "Kibinius",
+          "mobile": 863412321,
+          "address": "Vaivadu g.",
+          "email": "el@pasto.lt"
+        },
+        "imgSrc": "https://m.media-amazon.com/images/I/81J5r9dANGL._SL1500_.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Keturkojis pagalbininkas",
+        "type": "Stalas",
+        "price": 200,
+        "location": {
+          "country": "Lietuva",
+          "city": "Klaipėda",
+          "street": "Jūros g."
+        },
+        "owner": {
+          "fullname": "Kibinius",
+          "mobile": 863412321,
+          "address": "Vaivadu g.",
+          "email": "el@pasto.lt"
+        },
+        "imgSrc": "https://cdn.shopify.com/s/files/1/0250/0689/9309/products/124101_-_Old_Door_DT_-_BDT47TW_-F_2048x2048.jpg?v=1578542475"
+      },
+      {
+        "id": "4",
+        "title": "Narnijos vartai",
+        "type": "Spinta",
+        "price": 200,
+        "location": {
+          "country": "Lietuva",
+          "city": "Klaipėda",
+          "street": "Jūros g."
+        },
+        "owner": {
+          "fullname": "Kibinius",
+          "mobile": 863412321,
+          "address": "Vaivadu g.",
+          "email": "el@pasto.lt"
+        },
+        "imgSrc": "https://ae01.alicdn.com/kf/Hbc638e4519b148bd8d3960132333e9daB/1-12-Dollhouse-Miniature-Old-Chinese-Style-Wardrobe-Armoire-Wooden-Closet.jpg_Q90.jpg_.webp"
+      },
+      {
+        "id": "5",
+        "title": "Minčių gaudyklė",
+        "type": "Spinta",
+        "price": 200,
+        "location": {
+          "country": "Lietuva",
+          "city": "Klaipėda",
+          "street": "Jūros g."
+        },
+        "owner": {
+          "fullname": "Kibinius",
+          "mobile": 863412321,
+          "address": "Vaivadu g.",
+          "email": "el@pasto.lt"
+        },
+        "imgSrc": "https://5.imimg.com/data5/OJ/IP/YN/SELLER-31009509/designer-wooden-bookshelf-500x500.jpg"
+      }
+
+    ]
   }
-]
-}

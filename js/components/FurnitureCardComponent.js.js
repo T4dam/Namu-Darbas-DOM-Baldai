@@ -11,7 +11,11 @@ class furnitureCardComponent {
       location: { country, city, street },
       owner: { fullname, mobile, address, email },
       imgSrc,
+      onDelete,
     } = this.props;
+
+    const formatedPrice = Math.round(100 * price) / 100 + "€";
+
     this.htmlElement = document.createElement("article");
     this.htmlElement.className = "card p-3 shadow";
     this.htmlElement.innerHTML = `
@@ -25,7 +29,7 @@ class furnitureCardComponent {
         </li>
         <li>
         <span>Kaina:</span>
-        <strong>${price}</strong>
+        <strong>${formatedPrice}</strong>
         </li>
         <li>
         <span>Gamybos šalis:</span>
