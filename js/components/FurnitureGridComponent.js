@@ -30,15 +30,30 @@ class FurnitureGridComponent {
     this.state.loading = true;
     this.initFetch();
     this.htmlElement = document.createElement("div");
+    this.htmlElement.className = "row g-2";
     this.render();
   };
 
+  wrapInColumn = (element) => {
+    const column = document.createElement("div");
+    column.className = `col-12 col-sm-6 col-md-4 col-lg-3`;
+    column.append(element);
+    return column;
+  };
+
   render = () => {
-    const { loading } = this.state;
+    const { loading, furniture } = this.state;
     if (loading) {
-      this.htmlElement.innerHTML = `siunčiama...`;
+      this.htmlElement.innerHTML = `<div class="text-center"><img src="assets/loading.gif" /></div>`;
+    } else if (furniture.length > 0) {
+      this.htmlElement.innerHTML = "";
+      const furnitureElement = furniture
+        .map((x) => new furnitureCardComponent(x))
+        .map((x) => x.htmlElement)
+        .map(this.wrapInColumn);
+      this.htmlElement.append(...furnitureElement);
     } else {
-      this.htmlElement.innerHTML = `parsiusta...`;
+      this.htmlElement.innerHTML = `<h2>Šiuo metu baldų nėra</h2>`;
     }
   };
 }
